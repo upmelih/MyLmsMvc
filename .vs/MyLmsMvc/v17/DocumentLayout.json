@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\mylmsmvc\\mylmsmvc\\controllers\\readerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|solutionrelative:mylmsmvc\\controllers\\readerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\mylmsmvc\\mylmsmvc\\controllers\\borrowingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|solutionrelative:mylmsmvc\\controllers\\borrowingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\mylmsmvc\\mylmsmvc\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|solutionrelative:mylmsmvc\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReadersController.cs",
+              "DocumentMoniker": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Controllers\\ReadersController.cs",
+              "RelativeDocumentMoniker": "MyLmsMvc\\Controllers\\ReadersController.cs",
+              "ToolTip": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Controllers\\ReadersController.cs",
+              "RelativeToolTip": "MyLmsMvc\\Controllers\\ReadersController.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAwwKMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:23:03.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BorrowingsController.cs",
+              "DocumentMoniker": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Controllers\\BorrowingsController.cs",
+              "RelativeDocumentMoniker": "MyLmsMvc\\Controllers\\BorrowingsController.cs",
+              "ToolTip": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Controllers\\BorrowingsController.cs",
+              "RelativeToolTip": "MyLmsMvc\\Controllers\\BorrowingsController.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAIwLMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:21:27.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "MyLmsMvc\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "MyLmsMvc\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAIwJEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T21:56:58.761Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

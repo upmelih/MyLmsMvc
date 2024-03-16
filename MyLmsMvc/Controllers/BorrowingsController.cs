@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -9,7 +10,8 @@ using MyLmsMvc.Data;
 using MyLmsMvc.Models;
 
 namespace MyLmsMvc.Controllers
-{
+{   
+
     public class BorrowingsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -27,6 +29,7 @@ namespace MyLmsMvc.Controllers
         }
 
         // GET: Borrowings/Details/5
+        
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -47,6 +50,7 @@ namespace MyLmsMvc.Controllers
         }
 
         // GET: Borrowings/Create
+        [Authorize]
         public IActionResult Create()
         {
             ViewData["BookId"] = new SelectList(_context.Book, "Id", "ISBN");
@@ -59,6 +63,7 @@ namespace MyLmsMvc.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Create([Bind("Id,BookId,ReaderId,BorrowDate,DueDate,ReturnDate")] Borrowing borrowing)
         {
             if (ModelState.IsValid)
@@ -73,6 +78,7 @@ namespace MyLmsMvc.Controllers
         }
 
         // GET: Borrowings/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -95,6 +101,7 @@ namespace MyLmsMvc.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Edit(int id, [Bind("Id,BookId,ReaderId,BorrowDate,DueDate,ReturnDate")] Borrowing borrowing)
         {
             if (id != borrowing.Id)
@@ -128,6 +135,7 @@ namespace MyLmsMvc.Controllers
         }
 
         // GET: Borrowings/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -150,6 +158,7 @@ namespace MyLmsMvc.Controllers
         // POST: Borrowings/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var borrowing = await _context.Borrowing.FindAsync(id);

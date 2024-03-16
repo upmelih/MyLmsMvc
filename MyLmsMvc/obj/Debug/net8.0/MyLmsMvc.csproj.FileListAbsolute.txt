@@ -260,3 +260,4 @@ C:\Users\melih\OneDrive\Desktop\New folder\MyLmsMvc\MyLmsMvc\bin\Debug\net8.0\ru
 C:\Users\melih\OneDrive\Desktop\New folder\MyLmsMvc\MyLmsMvc\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\melih\OneDrive\Desktop\New folder\MyLmsMvc\MyLmsMvc\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\melih\OneDrive\Desktop\New folder\MyLmsMvc\MyLmsMvc\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\melih\OneDrive\Desktop\New folder\MyLmsMvc\MyLmsMvc\obj\Debug\net8.0\MyLmsMvc.sourcelink.json
