@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\mylmsmvc\\mylmsmvc\\controllers\\readerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|solutionrelative:mylmsmvc\\controllers\\readerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\mylmsmvc\\mylmsmvc\\views\\readers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|solutionrelative:mylmsmvc\\views\\readers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\mylmsmvc\\mylmsmvc\\views\\borrowings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|solutionrelative:mylmsmvc\\views\\borrowings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\mylmsmvc\\mylmsmvc\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|solutionrelative:mylmsmvc\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\mylmsmvc\\mylmsmvc\\controllers\\borrowingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|solutionrelative:mylmsmvc\\controllers\\borrowingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\mylmsmvc\\mylmsmvc\\controllers\\readerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|solutionrelative:mylmsmvc\\controllers\\readerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44E3E425-D358-4AAD-BEAA-659D3EB6F34B}|MyLmsMvc\\MyLmsMvc.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\mylmsmvc\\mylmsmvc\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,32 +39,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Views\\Readers\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyLmsMvc\\Views\\Readers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Views\\Readers\\Index.cshtml",
+              "RelativeToolTip": "MyLmsMvc\\Views\\Readers\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T04:04:21.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Views\\Borrowings\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyLmsMvc\\Views\\Borrowings\\Index.cshtml",
+              "ToolTip": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Views\\Borrowings\\Index.cshtml",
+              "RelativeToolTip": "MyLmsMvc\\Views\\Borrowings\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T04:03:53.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyLmsMvc\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "MyLmsMvc\\Views\\Books\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T04:03:14.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ReadersController.cs",
               "DocumentMoniker": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Controllers\\ReadersController.cs",
               "RelativeDocumentMoniker": "MyLmsMvc\\Controllers\\ReadersController.cs",
               "ToolTip": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Controllers\\ReadersController.cs",
               "RelativeToolTip": "MyLmsMvc\\Controllers\\ReadersController.cs",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAwwKMAAAAAAAAA",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAKMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T22:23:03.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BorrowingsController.cs",
               "DocumentMoniker": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Controllers\\BorrowingsController.cs",
               "RelativeDocumentMoniker": "MyLmsMvc\\Controllers\\BorrowingsController.cs",
               "ToolTip": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Controllers\\BorrowingsController.cs",
               "RelativeToolTip": "MyLmsMvc\\Controllers\\BorrowingsController.cs",
-              "ViewState": "AQIAAKUAAAAAAAAAAAAIwLMAAAAAAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAAF4AAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T22:21:27.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\MyLmsMvc\\MyLmsMvc\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "MyLmsMvc\\Controllers\\BooksController.cs",
@@ -60,8 +111,7 @@
               "RelativeToolTip": "MyLmsMvc\\Controllers\\BooksController.cs",
               "ViewState": "AQIAAJcAAAAAAAAAAAAIwJEAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T21:56:58.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-16T21:56:58.761Z"
             }
           ]
         }

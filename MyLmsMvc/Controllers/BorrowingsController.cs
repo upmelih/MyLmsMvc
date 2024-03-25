@@ -91,8 +91,8 @@ namespace MyLmsMvc.Controllers
             {
                 return NotFound();
             }
-            ViewData["BookId"] = new SelectList(_context.Book, "Id", "Author", borrowing.BookId);
-            ViewData["ReaderId"] = new SelectList(_context.Reader, "Id", "ContactNumber", borrowing.ReaderId);
+            ViewData["BookId"] = new SelectList(_context.Book, "Id", "ISBN", borrowing.BookId);
+            ViewData["ReaderId"] = new SelectList(_context.Reader, "Id", "FullName", borrowing.ReaderId);
             return View(borrowing);
         }
 
