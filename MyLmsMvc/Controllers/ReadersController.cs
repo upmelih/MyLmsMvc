@@ -26,6 +26,25 @@ namespace MyLmsMvc.Controllers
             return View(await _context.Reader.ToListAsync());
         }
 
+        // GET: Readers/ShowSearchFrom
+        public async Task<IActionResult> ShowSearchForm()
+        {
+
+            return View();
+        }
+
+
+        // POST: Readers/ShowSearchResult
+        public async Task<IActionResult> ShowSearchResult(String SearchPhrase)
+        {
+            return View("index", await _context.Reader.Where(r => r.FullName.Contains(SearchPhrase)).ToListAsync());
+
+        }
+
+
+
+
+
         // GET: Readers/Details/5
         public async Task<IActionResult> Details(int? id)
         {

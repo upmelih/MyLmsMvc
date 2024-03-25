@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -28,8 +29,23 @@ namespace MyLmsMvc.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
+        // GET: Borrowings/ShowSearchFrom
+        public async Task<IActionResult> ShowSearchForm()
+        {
+           
+            return View();
+        }
+
+
+        // POST: Borrowings/ShowSearchResult
+        public async Task<IActionResult> ShowSearchResult(String SearchPhrase)
+        {
+            var applicationDbContext = _context.Borrowing.Include(b => b.Book).Include(b => b.Reader);
+            return View("index", await applicationDbContext.Where(b =>b.Reader.FullName.Contains(SearchPhrase)).ToListAsync());
+        }
+
         // GET: Borrowings/Details/5
-        
+
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)

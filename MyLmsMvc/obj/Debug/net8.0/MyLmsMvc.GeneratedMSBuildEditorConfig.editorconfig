@@ -50,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/melih/OneDrive/Desktop/New folder/MyLmsMvc/MyLmsMvc/Views/Books/ShowSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcU2hvd1NlYXJjaEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/melih/OneDrive/Desktop/New folder/MyLmsMvc/MyLmsMvc/Views/Borrowings/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93aW5nc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,6 +72,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/melih/OneDrive/Desktop/New folder/MyLmsMvc/MyLmsMvc/Views/Borrowings/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93aW5nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melih/OneDrive/Desktop/New folder/MyLmsMvc/MyLmsMvc/Views/Borrowings/ShowSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93aW5nc1xTaG93U2VhcmNoRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/melih/OneDrive/Desktop/New folder/MyLmsMvc/MyLmsMvc/Views/Home/Index.cshtml]
@@ -96,6 +104,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/melih/OneDrive/Desktop/New folder/MyLmsMvc/MyLmsMvc/Views/Readers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhZGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melih/OneDrive/Desktop/New folder/MyLmsMvc/MyLmsMvc/Views/Readers/ShowSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhZGVyc1xTaG93U2VhcmNoRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/melih/OneDrive/Desktop/New folder/MyLmsMvc/MyLmsMvc/Views/Shared/Error.cshtml]
